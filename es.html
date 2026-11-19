@@ -371,8 +371,8 @@ const KEY = "aicyber-lab-v2";
 // Where the videos and thumbnails live. Leave as "videos/" and "thumbs/" if those folders sit next to index.html.
 // If your host can't serve video files, upload the videos somewhere that can (for example GitHub Pages)
 // and put that folder's full web address here, ending in a slash, e.g. "https://yourname.github.io/ai-cyber-lab/videos/".
-const VIDEO_BASE = "https://kilik42.github.io/ai-cyber-videos/";
-const THUMB_BASE = "https://kilik42.github.io/ai-cyber-videos/thumbs_es/";
+const VIDEO_BASE = "https://kilik42.github.io/cyber-1.4-1.5-espanol/";
+const THUMB_BASE = "https://kilik42.github.io/cyber-1.4-1.5-espanol/thumbs_es/";
 let S = {name:"", period:"", m:{}, style:"cartoon"};
 try { const raw = localStorage.getItem(KEY) || localStorage.getItem("aicyber-lab-v1"); if (raw) S = Object.assign(S, JSON.parse(raw)); } catch(e) {}
 function save(){ try{ localStorage.setItem(KEY, JSON.stringify(S)); }catch(e){} }
